@@ -1,0 +1,7 @@
+DefaultPackage
+grails-app.conf
+grails-app.controllers.org.grails.plugins.lookups
+grails-app.domain.org.grails.plugins.lookups
+grails-app.services.org.grails.plugins.lookups
+grails-app.taglib.org.grails.plugins.lookups
+scripts

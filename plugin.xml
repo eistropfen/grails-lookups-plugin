@@ -1,0 +1,23 @@
+<plugin name='lookups' version='1.4' grailsVersion='1.3.0 &gt; *'>
+  <author>Paul Fernley/Kalin Wilson</author>
+  <authorEmail>paul@pfernley.orangehome.co.uk</authorEmail>
+  <title>Application lookup (reference tables) plugin</title>
+  <description>This plugin allows the creation and maintenance of pseudo reference (lookup)
+tables. Within the lookup system, you create 'realms' such as 'countries' or
+'order.status' and can then create code/value pairs within those realms. The
+plugin comes with lookup and lookupValue controllers with associated screens
+that presume you are using a layout called main.
+</description>
+  <documentation>http://grails.org/Lookups+Plugin</documentation>
+  <resources>
+    <resource>UrlMappings</resource>
+    <resource>org.grails.plugins.lookups.LookupController</resource>
+    <resource>org.grails.plugins.lookups.LookupValueController</resource>
+    <resource>org.grails.plugins.lookups.Lookup</resource>
+    <resource>org.grails.plugins.lookups.LookupValue</resource>
+    <resource>org.grails.plugins.lookups.LookupService</resource>
+    <resource>org.grails.plugins.lookups.LookupTagLib</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>

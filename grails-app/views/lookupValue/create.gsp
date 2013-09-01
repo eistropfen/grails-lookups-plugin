@@ -24,7 +24,7 @@
             </div>
             </g:hasErrors>
             <g:form action="save" method="post" >
-                <g:render template="dialog" model="[lookupValue: lookupValue]" contextPath="${pluginContextPath}" />
+                <g:render template="dialog" model="[lookupValue: lookupValue]"/>
                 <div class="buttons">
                     <span class="button"><input class="save" type="submit" value="${message(code:'create', 'default':'Create')}" /></span>
                 </div>

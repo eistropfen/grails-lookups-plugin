@@ -1,4 +1,4 @@
-<plugin name='lookups' version='1.4' grailsVersion='1.3.0 &gt; *'>
+<plugin name='lookups' version='1.4' grailsVersion='2.3.4 &gt; *'>
   <author>Paul Fernley/Kalin Wilson</author>
   <authorEmail>paul@pfernley.orangehome.co.uk</authorEmail>
   <title>Application lookup (reference tables) plugin</title>
@@ -9,8 +9,8 @@ plugin comes with lookup and lookupValue controllers with associated screens
 that presume you are using a layout called main.
 </description>
   <documentation>http://grails.org/Lookups+Plugin</documentation>
+  <type>LookupsGrailsPlugin</type>
   <resources>
-    <resource>UrlMappings</resource>
     <resource>org.grails.plugins.lookups.LookupController</resource>
     <resource>org.grails.plugins.lookups.LookupValueController</resource>
     <resource>org.grails.plugins.lookups.Lookup</resource>
@@ -18,6 +18,4 @@ that presume you are using a layout called main.
     <resource>org.grails.plugins.lookups.LookupService</resource>
     <resource>org.grails.plugins.lookups.LookupTagLib</resource>
   </resources>
-  <dependencies />
-  <behavior />
 </plugin>

@@ -1,4 +1,4 @@
-<plugin name='lookups' version='1.4' grailsVersion='2.3.4 &gt; *'>
+<plugin name='lookups' version='1.4' grailsVersion='2.3.6 &gt; *'>
   <author>Paul Fernley/Kalin Wilson</author>
   <authorEmail>paul@pfernley.orangehome.co.uk</authorEmail>
   <title>Application lookup (reference tables) plugin</title>
